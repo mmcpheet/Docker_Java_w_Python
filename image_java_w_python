@@ -1,0 +1,107 @@
+
+[
+    {
+        "Id": "sha256:8b00c83791ff183aaf8aa4bfd25e0b46956185387179d786342f131b20b24695",
+        "RepoTags": [
+            "ghcr.io/pterodactyl/yolks:java_17"
+        ],
+        "RepoDigests": [
+            "ghcr.io/pterodactyl/yolks@sha256:87a4995b3c3f3bf4e8dcc66c024397c2be4600e8c9463f7462eb6c40d1eb5038"
+        ],
+        "Parent": "",
+        "Comment": "buildkit.dockerfile.v0",
+        "Created": "2024-01-01T00:08:24.857584582Z",
+        "Container": "",
+        "ContainerConfig": {
+            "Hostname": "",
+            "Domainname": "",
+            "User": "",
+            "AttachStdin": false,
+            "AttachStdout": false,
+            "AttachStderr": false,
+            "Tty": false,
+            "OpenStdin": false,
+            "StdinOnce": false,
+            "Env": null,
+            "Cmd": null,
+            "Image": "",
+            "Volumes": null,
+            "WorkingDir": "",
+            "Entrypoint": null,
+            "OnBuild": null,
+            "Labels": null
+        },
+        "DockerVersion": "",
+        "Author": "",
+        "Config": {
+            "Hostname": "",
+            "Domainname": "",
+            "User": "container",
+            "AttachStdin": false,
+            "AttachStdout": false,
+            "AttachStderr": false,
+            "Tty": false,
+            "OpenStdin": false,
+            "StdinOnce": false,
+            "Env": [
+                "PATH=/opt/java/openjdk/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin",
+                "JAVA_HOME=/opt/java/openjdk",
+                "LANG=en_US.UTF-8",
+                "LANGUAGE=en_US:en",
+                "LC_ALL=en_US.UTF-8",
+                "JAVA_VERSION=jdk-17.0.9+9",
+                "USER=container",
+                "HOME=/home/container"
+            ],
+            "Cmd": [
+                "/bin/bash",
+                "/entrypoint.sh"
+            ],
+            "ArgsEscaped": true,
+            "Image": "",
+            "Volumes": null,
+            "WorkingDir": "/home/container",
+            "Entrypoint": [
+                "/__cacert_entrypoint.sh"
+            ],
+            "OnBuild": null,
+            "Labels": {
+                "author": "Matthew Penner",
+                "maintainer": "matthew@pterodactyl.io",
+                "org.opencontainers.image.licenses": "MIT",
+                "org.opencontainers.image.ref.name": "ubuntu",
+                "org.opencontainers.image.source": "https://github.com/pterodactyl/yolks",
+                "org.opencontainers.image.version": "22.04"
+            }
+        },
+        "Architecture": "amd64",
+        "Os": "linux",
+        "Size": 532325712,
+        "VirtualSize": 532325712,
+        "GraphDriver": {
+            "Data": {
+                "LowerDir": "/var/lib/docker/overlay2/1500bceeb1dfadf5aedb8b7280de4814d34dc9b3999404a6ffefc637c3c0fa0a/diff:/var/lib/docker/overlay2/7c46c21a3d04eb5d8b3f9e8485d340a3fa5a31c128a3c10a2b7764cf5b040181/diff:/var/lib/docker/overlay2/a229da9040db72c86c96808385987e8e0fcc9fef83520ddb3605e82802ac5304/diff:/var/lib/docker/overlay2/2ac902dc40de3964259cc0f50196df362515ad2254d80d1e10415a0e27ca7a59/diff:/var/lib/docker/overlay2/206af964ebb1eba3de3f5418ce9f21b4f7fe05d97f7205e4e2ee5875bd1ee1cb/diff:/var/lib/docker/overlay2/d91d7ce3ef86dba6e3ff042be465ebcea98ea4b05aff831f31f2ad84d51e4bd9/diff:/var/lib/docker/overlay2/0e657a90a0c5613a46309946af385968ff1c3b893eed0895159e630166e9085e/diff",
+                "MergedDir": "/var/lib/docker/overlay2/f19fc0dd5fce8969c873e4b57b0a53952c2f0552f3fd28e15e8800b9e3c522d2/merged",
+                "UpperDir": "/var/lib/docker/overlay2/f19fc0dd5fce8969c873e4b57b0a53952c2f0552f3fd28e15e8800b9e3c522d2/diff",
+                "WorkDir": "/var/lib/docker/overlay2/f19fc0dd5fce8969c873e4b57b0a53952c2f0552f3fd28e15e8800b9e3c522d2/work"
+            },
+            "Name": "overlay2"
+        },
+        "RootFS": {
+            "Type": "layers",
+            "Layers": [
+                "sha256:a1360aae5271bbbf575b4057cb4158dbdfbcae76698189b55fb1039bc0207400",
+                "sha256:f2d20993b4834e2a08d0c92c26bcb4d83405f91ecc6ef529b3d38ecca2c7b18c",
+                "sha256:f6f4ab056ca431b8460f27e4cd1cd9f8b2cdc61638b44a3a10bfc009ffb88a7b",
+                "sha256:4136fa0b9cc70b5e2bbbbab3076d264ec894cbaa3128a949bb78d0805b311794",
+                "sha256:1b7b11b3df095f1b0dc48f634f90104627f4f6aeabe62530e369c70a8c99417a",
+                "sha256:21b0059cf302416bd8919e8abb999ffffc49fc1989b9100950602b9df052fad0",
+                "sha256:5f70bf18a086007016e948b04aed3b82103a36bea41755b6cddfaf10ace3c6ef",
+                "sha256:b8a77ec51ddeb2814658ecdc7a848137ef2cc700fb05a6e2995aaf8de317bc81"
+            ]
+        },
+        "Metadata": {
+            "LastTagTime": "0001-01-01T00:00:00Z"
+        }
+    }
+]
