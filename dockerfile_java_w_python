@@ -22,7 +22,7 @@
 
 # Updated 2024-01-01 EdenOaks Matt McPheeters to add python3
 
-FROM        --platform=$TARGETOS/$TARGETARCH eclipse-temurin:17-jdk-jammy
+FROM        --platform=linux/amd64 eclipse-temurin:17-jdk-jammy
 
 LABEL       author="Matthew Penner" maintainer="Matt McPheeters mmcpheet@gmail.com"
 
